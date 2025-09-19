@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-       #adi{
+       /* #adi{
         height: 300px;
         width: 300px;
         border: 5px solid rgb(166, 255, 0);
@@ -14,22 +14,40 @@
 
        #aaa{
         color: white;
-       }
+       } */
     </style>
     
 </head>
-<body>
-    <div id="adi">
+<body id="my_id">
+    <!-- <div id="adi">
          <button onclick="abes()">CLICK</button>
          <P id="aaa"></P>
-    </div>
+    </div> -->
+
+
+    <button onclick="red()">RED</button>
+    <button onclick="blue()">BLUE</button>
+    <BUtton onclick="green()">GREEN</BUtton>
 
     <script>
         //arrow function named abes
          
-       function abes(){
-        document.getElementById("aaa").innerHTML="<h2>hello</h2>";
-       }
+    //    function abes(){
+    //     document.getElementById("aaa").innerHTML="<h2>hello</h2>";
+    //    }
+
+     function red(){
+        document.getElementById('my_id').style.backgroundColor="red";
+     }
+     function green(){
+        document.getElementById('my_id').style.backgroundColor="green";
+     }
+     function blue(){
+        document.getElementById('my_id').style.backgroundColor="blue";
+     }
+
+     
+
 
     </script>
 </body>
