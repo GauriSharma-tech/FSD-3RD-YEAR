@@ -1,0 +1,11 @@
+.navBar{
+    background-color: rgb(205, 162, 245);
+    color: white;
+    width: 100vw;
+    height: 40px;
+}
+.link-style{
+    text-decoration: none;
+    float: right;
+    padding: 3px;
+}
